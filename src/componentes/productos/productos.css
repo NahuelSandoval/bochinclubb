@@ -33,6 +33,7 @@
     border-color: rgb(40, 42, 58);
     border-radius: 0px 0px 10px 10px;
     text-transform: uppercase;
+    opacity: 0.64;
 }
 .contPlantilla{
     font-weight: 900;

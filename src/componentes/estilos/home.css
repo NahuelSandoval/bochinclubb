@@ -2,6 +2,9 @@
     background: rgb(185,183,219);
 background: linear-gradient(90deg, rgba(185,183,219,1) 0%, rgba(252,252,252,0.9612219887955182) 100%, rgba(0,212,255,1) 100%);
 }
+.navBar{
+    opacity: 0.64;
+}
 h2 {
     text-align: center;
     font-size: 3rem;
@@ -176,7 +179,7 @@ textarea {
     width: 100%;
     flex-wrap: nowrap;
     border-radius: 10px;
-    color: red;
+    opacity: 0.64;
     padding-bottom: 5px;
     gap: 5px;
 }

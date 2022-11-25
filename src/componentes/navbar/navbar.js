@@ -9,7 +9,7 @@ import { Outlet , Link} from 'react-router-dom';
 const NavBarExamples = () => {
     return (
         <>
-            <Navbar bg="dark" variant="dark" expand="md">
+            <Navbar className="navBar" bg="dark" variant="dark" expand="md">
                 <Container>
                     <Navbar.Brand as={Link} to= "/" >Fraternidad Bochin Club</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />

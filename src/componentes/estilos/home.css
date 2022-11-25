@@ -202,6 +202,12 @@ legend{
     color: red;
     font-size: 15px;
 }
+.FormExitoso{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 /* --------tablettttt---------- */
 @media (min-width:768px) {
     .campos {
@@ -235,11 +241,6 @@ legend{
 
 /*-------------pantallas------------- */
 @media(min-width:992px) {
-    body {
-        background-color: antiquewhite;
-
-    }
-
     .campos {
         width: 50rem;
         display: flex;

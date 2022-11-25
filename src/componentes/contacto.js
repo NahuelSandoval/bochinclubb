@@ -1,13 +1,97 @@
 import React from "react";
 import "./estilos/home.css"
-import { useForm } from '@formspree/react';
-
 import Button from 'react-bootstrap/Button';
+import { useForm, ValidationError } from '@formspree/react';
+
+function ContactForm() {
+
+    const [state, handleSubmit] = useForm("mkneagjq");
+     if (state.succeeded) {
+        return <p className="FormExitoso">Su consulta a sido enviada con éxito!</p>;
+    } 
+    
+    return (
+        <form onSubmit={handleSubmit} className="form">
+            <fieldset className="campos">
+
+                <legend>Complete el formulario</legend>
+
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" id="nombre" placeholder="ingresa tu nombre" required className="celda" />
+
+                <label for="apellido">Apellido</label>
+                <input type="text" name="apellido" id="apellido" placeholder="ingresa tu apellido" required className="celda" />
+
+                <label for="telefono">Telefono de contacto</label>
+                <input type="text" name="telefono" id="telefono" placeholder="ingrese su numero de contacto" className="celda" />
+
+                <label htmlFor="email" for="correo">Email</label>
+                <input type="email" name="correo" id="correo" placeholder="ingresa tu email" className="celda" />
+
+                <label for="mensaje">Escribi un mensaje</label>
+                <textarea name="mensaje" id="mensaje" cols="25" rows="10"  required placeholder="Ingrese aquí su consulta"></textarea>
+
+                <div className="socios">
+
+
+                    <input type="radio" name="socio" value="socio" />
+                    <label for="socios">socio</label>
+
+                    <input type="radio" name="socio" value="no socio" />
+                    <label for="socios">no socio</label>
+                </div>
+
+                <div className="terminos">
+                    <input type="checkbox" name="acepta" id="acepta" value="1" required />
+                    <label for="acepta">Acepta los terminos y condiciones </label>
+                </div>
+
+
+                <div className="botones">
+                    <Button variant="dark" type="submit" size="lg" value="Enviar" disabled={state.submitting}>Enviar</Button>
+                    <Button variant="dark" type="reset" size="lg">Restablecer</Button>
+                </div>
+
+{/*                 <label htmlFor="email">
+                    Email Address
+                </label>
+                <input
+                    id="email"
+                    type="email"
+                    name="email"
+                /> */}
+                <ValidationError
+                    prefix="Email"
+                    field="email"
+                    errors={state.errors}
+                />
+                <ValidationError
+                    prefix="Message"
+                    field="message"
+                    errors={state.errors}
+                />
+            </fieldset>
+        </form>
+
+    );
+}
+function App() {
+    return (
+        <ContactForm />
+    );
+}
+export default App;
+
+
+
+
+/* import { useForm } from 'react-hook-form';
+
+
 
 
 const Contacto = () => {
-   /*  const [sended, setSended ] = usesState(3) */
-    const { register, formState:{ errors} , handleSubmit} = useForm('{mkneagjq}');
+    const { register, formState:{ errors} , handleSubmit} = useForm('');
 const onSubmit = (data) => {
     console.log(data);
 }
@@ -15,7 +99,7 @@ const onSubmit = (data) => {
 
     return (
 
-        <form onSubmit={handleSubmit(onSubmit)} fetch="https://formspree.io/f/mkneagjq" className="form" method="post">
+        <form onSubmit={handleSubmit(onSubmit)} await fetch="https://formspree.io/f/mkneagjq" className="form" method="post">
 
             <fieldset className="campos">
                 <legend>Complete el formulario</legend>
@@ -68,4 +152,4 @@ const onSubmit = (data) => {
     )
 }
 
-export default Contacto
+export default MyForm*/

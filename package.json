@@ -2,7 +2,7 @@
   "name": "proyecto",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://nahuelsandoval.github.io/bochinclubb",
+  "homepage": "https://nahuelsandoval.github.io/bochinclubb/",
   "dependencies": {
     "@formspree/react": "^2.4.1",
     "@testing-library/jest-dom": "^5.16.5",

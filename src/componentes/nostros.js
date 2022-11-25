@@ -6,7 +6,7 @@ const Nosotros = () => {
         <main>
             <h2>Nuestro Club</h2>
             <p className="text-center">
-                Nuestra humilde club, desde su creación en 1950, ha trabajado con los vecinos de la comunidad y el municio para llevar toda clase de eventos y actividades.
+                Nuestro humilde club, desde su creación en 1950, ha trabajado con los vecinos de la comunidad y el municio para llevar toda clase de eventos y actividades.
             </p>
             <p className="text-center">
                 Gracias a la gestión del municipio, hoy contamos con un salon para eventos, para uso de cualquier socio y no socio.

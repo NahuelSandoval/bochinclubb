@@ -186,7 +186,10 @@ select {
     border-radius: 5px;
     border-bottom-style: inset;
 }
-
+.socios input{
+    width: 20px;
+    height: 10px;
+}
 textarea {
     border-radius: 10px;
     box-shadow: 5px 5px 5px rgb(40, 42, 58);
@@ -197,16 +200,6 @@ legend{
 }
 .celda{
     width: 15rem;
-}
-.camposObligatorios{
-    color: red;
-    font-size: 15px;
-}
-.FormExitoso{
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 /* --------tablettttt---------- */
 @media (min-width:768px) {
@@ -221,7 +214,10 @@ legend{
     body {
         background-color: grey
     }
-
+    .socios input{
+        width: 20px;
+        height: 13px;
+    }
     legend {
         font-size: 2rem;
         text-align: center;

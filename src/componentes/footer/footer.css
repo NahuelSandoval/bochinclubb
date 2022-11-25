@@ -17,11 +17,16 @@
 
 /* logo y links----------- */
 .logoimg {
-    width: 1.8rem;
-    height: 1.8rem;
+    width: 1.5rem;
+    height: 1.5rem;
 }
 
 .logo {
     padding: 5px;
     border-radius: 5px;
+}
+@media(max-width:366px){
+    .pie {
+        align-items: normal;
+}
 }

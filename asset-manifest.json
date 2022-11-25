@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/bochinclubb/static/css/main.704b4261.css",
+    "main.js": "/bochinclubb/static/js/main.c059511e.js",
+    "static/js/787.319676fc.chunk.js": "/bochinclubb/static/js/787.319676fc.chunk.js",
+    "static/media/SDC10597.JPG": "/bochinclubb/static/media/SDC10597.7b4d8d9ad20bb260e597.JPG",
+    "static/media/FBC 003.jpg": "/bochinclubb/static/media/FBC 003.e69904ecee89bf296539.jpg",
+    "static/media/FBC 033.jpg": "/bochinclubb/static/media/FBC 033.657a7813594f6483c3b8.jpg",
+    "static/media/boyu 9.jpg": "/bochinclubb/static/media/boyu 9.28a3426fb0948672a97e.jpg",
+    "static/media/SDC16099.JPG": "/bochinclubb/static/media/SDC16099.44368eab820046c2875e.JPG",
+    "static/media/SDC16942.JPG": "/bochinclubb/static/media/SDC16942.857278205da746f1d572.JPG",
+    "static/media/SDC16647.JPG": "/bochinclubb/static/media/SDC16647.69cb9dae92a1ea63857c.JPG",
+    "static/media/P1010279.JPG": "/bochinclubb/static/media/P1010279.25adb6351a046d4efb18.JPG",
+    "static/media/4.jpeg": "/bochinclubb/static/media/4.28e3832f1092b649b458.jpeg",
+    "static/media/BRISKI 2.jpg": "/bochinclubb/static/media/BRISKI 2.a630f494300c566fc40b.jpg",
+    "index.html": "/bochinclubb/index.html",
+    "main.704b4261.css.map": "/bochinclubb/static/css/main.704b4261.css.map",
+    "main.c059511e.js.map": "/bochinclubb/static/js/main.c059511e.js.map",
+    "787.319676fc.chunk.js.map": "/bochinclubb/static/js/787.319676fc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.704b4261.css",
+    "static/js/main.c059511e.js"
+  ]
+}

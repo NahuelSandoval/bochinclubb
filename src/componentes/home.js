@@ -22,7 +22,7 @@ const Home = () => {
                 <div className="griddos">
                     <h3>Comisión directiva</h3>
                     <section className="seccion dos">
-                        <p>Elegido por los socios en ya tres ocacions, nuestra comisión directiva conjunto a la comunidad
+                        <p>Elegido por los socios en ya tres ocaciones, nuestra comisión directiva conjunto a la comunidad
                             barrial, siempre trabajan en actividades sociales en la ciudad</p>
                         <img className="imagenes" src={comisionDirectiva} alt="comision directiva" />
                     </section>

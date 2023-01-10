@@ -204,6 +204,12 @@ legend{
 .celda{
     width: 15rem;
 }
+.FormExitoso{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
 /* --------tablettttt---------- */
 @media (min-width:768px) {
     .campos {

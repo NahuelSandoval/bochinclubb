@@ -34,6 +34,7 @@
     border-radius: 0px 0px 10px 10px;
     text-transform: uppercase;
     opacity: 0.64;
+    cursor: pointer;
 }
 .contPlantilla{
     font-weight: 900;

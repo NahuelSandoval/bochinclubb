@@ -8,7 +8,7 @@ import gorro from './tienda/gorro.jfif';
 import taza from './tienda/taza.jfif';
 import bufanda from './tienda/bufanda.jfif';
 import llavero from './tienda/llavero.jfif';
-import chomba from './tienda/chomba.jfif';
+import chomba from './tienda/chomba.jfif'; 
 
 const ProductosEnVenta = () => {
 

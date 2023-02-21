@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { Col, Container, Row } from 'react-bootstrap';
+import "./estilos/home.css"
 
 
 const Personajes = () => {
@@ -20,20 +21,20 @@ const Personajes = () => {
 if (estaCargando){
 return (
     <div> 
-        <h2>Cargando personajes ....</h2>
+        <h2 className= "FormExitoso">Cargando personajes ....</h2>
     </div>
 );
 
 }
     return (
         <>
-            <h2>Personajes</h2>
+            <h2 style={{margin:"2rem"}}>Personajes</h2>
             <Container>
                 {personajes ?
-                    <Row>
+                    <Row style={{justifyContent:"space-around"}}>
                         {personajes.map((personaje, index) => (
-                            <Col sm={4} key={index}>
-                                <img style={{ width: "80%" }} src={personaje.image} alt="personaje" />
+                            <Col sm={4} key={index} className="caja" style={{margin:"1rem"}}>
+                                <img style={{width: "80%",  margin: "50px"}} src={personaje.image} alt="personaje" />
                                 <h2>{personaje.name}</h2>
                                 <p>{personaje.house}</p>
                             </Col>

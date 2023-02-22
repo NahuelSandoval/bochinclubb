@@ -12,7 +12,7 @@ function TiendaNueva() {
 
   return (
     <>
-    <h1>Hola</h1>
+    
     <Header allProducts={allProducts}
 				setAllProducts={setAllProducts}
 				total={total}
@@ -25,6 +25,7 @@ function TiendaNueva() {
 				setTotal={setTotal}
 				countProducts={countProducts}
 				setCountProducts={setCountProducts}/>
+    <h1>Gracias por su colaboración</h1>
     </>
   )
 }

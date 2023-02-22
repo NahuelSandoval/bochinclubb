@@ -62,7 +62,7 @@ const Header = ({
 				>
 					{allProducts.length ? (
 						<>
-							<div className='row-product'>
+							{<div className='row-product'>
 								{allProducts.map(product => (
 									<div className='cart-product' key={product.id}>
 										<div className='info-cart-product'>
@@ -93,7 +93,7 @@ const Header = ({
 										</svg>
 									</div>
 								))}
-							</div>
+							</div>}
 
 							<div className='cart-total'>
 								<h3>Total:</h3>

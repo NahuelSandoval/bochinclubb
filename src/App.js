@@ -5,10 +5,10 @@ import Home from './componentes/home'
 import Contacto from './componentes/contacto'
 import Nosotros from './componentes/nostros'
 import Tienda from './componentes/tienda'
-import nuevaTienda from './componentes/nuevaTienda'
 import Personajes from './componentes/personajes';
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import "./componentes/estilos/home.css"
+import TiendaNueva from './componentes/nuevaTienda';
 
 function App() {
   return (
@@ -20,7 +20,7 @@ function App() {
             <Route index element={<Home />} />
             <Route path='nosotros' element={<Nosotros />} />
             <Route path='tienda' element={<Tienda />} />
-            <Route path='nuevaTienda' element={<nuevaTienda />} />
+            <Route path='nuevaTienda' element={<TiendaNueva />} />
             <Route path='contacto' element={<Contacto />} />
             <Route path='personajes' element={<Personajes />} />
           </Route>

@@ -1,5 +1,6 @@
 import React from "react";
 import {data} from "./data"
+import Button from 'react-bootstrap/Button';
 
 const ProductList = ({
 	allProducts,
@@ -35,10 +36,10 @@ const ProductList = ({
 					</figure>
 					<div className='info-product'>
 						<h2>{product.nameProduct}</h2>
-						<p className='price'>${product.price}</p>
-						<button onClick={() => onAddProduct(product)}>
+						<p className='price'>Precio: ${product.price}</p>
+						<Button variant="secondary" onClick={() => onAddProduct(product)}>
 							Añadir al carrito
-						</button>
+						</Button>
 					</div>
 				</div>
 			))}

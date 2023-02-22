@@ -17,49 +17,57 @@ const ProductosEnVenta = () => {
             name: 'Buzo',
             precio: 1500,
             id: 1,
-            thumbnail: buzo
+            thumbnail: buzo,
+            quantity: 1
         },
         {
             name: 'Campera',
             precio: 2200,
             id: 2,
-            thumbnail: campera
+            thumbnail: campera,
+            quantity: 1
         },
         {
             name: 'Conjunto',
             precio: 3800,
             id: 3,
-            thumbnail: conjunto
+            thumbnail: conjunto,
+            quantity: 1
         },
         {
             name: 'Gorro',
             precio: 800,
             id: 4,
-            thumbnail: gorro
+            thumbnail: gorro,
+            quantity: 1
         },
         {
             name: 'Taza',
             precio: 450,
             id: 5,
             thumbnail: taza,
+            quantity: 1
         },
         {
             name: 'Bufanda',
             precio: 800,
             id: 6,
             thumbnail: bufanda,
+            quantity: 1
         },
         {
             name: 'Llavero',
             precio: 300,
             id: 7,
             thumbnail: llavero,
+            quantity: 1
         },
         {
             name: 'Chomba',
             precio: 1500,
             id: 8,
             thumbnail: chomba,
+            quantity: 1
         },
     ]);
     return (

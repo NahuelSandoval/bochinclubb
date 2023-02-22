@@ -18,6 +18,7 @@ const NavBarExamples = () => {
                             <Nav.Link as={Link} to= "/" >Home</Nav.Link>
                             <Nav.Link as={Link} to= "/nosotros" >Nosotros</Nav.Link>
                             <Nav.Link as={Link} to= "/tienda" >Tienda</Nav.Link>
+                            <Nav.Link as={Link} to= "/nuevaTienda" >Nueva Tienda</Nav.Link>
                             <Nav.Link as={Link} to= "/contacto" >Contacto</Nav.Link>
                             <Nav.Link as={Link} to= "/personajes" >Personajes</Nav.Link>
                         </Nav>

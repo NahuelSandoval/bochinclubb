@@ -3,6 +3,7 @@ import { Col, Container, Row } from 'react-bootstrap';
 import "./estilos/home.css"
 
 
+
 const Personajes = () => {
 
     const [personajes, setPersonajes] = useState([]);

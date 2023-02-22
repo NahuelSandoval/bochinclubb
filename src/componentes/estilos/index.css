@@ -9,8 +9,6 @@
 
 body {
 	margin: 0 auto;
-/* 	max-width: 1200px; */
-	font-family: 'Lato';
 	color: #333;
 }
 
@@ -135,17 +133,28 @@ header {
 
 /* Main */
 .container-items {
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-	gap: 20px;
+	
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+    gap: 5 rem;
+    
 }
 
 .item {
 	border-radius: 10px;
+	transition: all .3s ease-in-out;
+    width: 200px;
+    border-radius: 10px;
+    margin: 20px;
+    opacity: 90%;
+    box-shadow: 3px 3px 3px 3px gray;
+	gap: 20px;
 }
 
 .item:hover {
 	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+
 }
 
 .item img {

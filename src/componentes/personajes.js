@@ -35,10 +35,10 @@ return (
             <h2 style={{margin:"2rem"}}>Personajes</h2>
             <Container>
                 {personajes ?
-                    <Row style={{justifyContent:"space-around"}}>
+                    <Row style={{justifyContent:"space-around", width: "100%"}}>
                         {personajes.map((personaje, index) => (
-                            <Col sm={4} key={index} className="caja" style={{margin:"1rem"}}>
-                                <img style={{width: "80%",  margin: "50px"}} src={personaje.image} alt="personaje" />
+                            <Col sm={4} key={index} className="caja" style={{margin:"1rem", width:"200px"}}>
+                                <img style={{width: "80%",  margin: "20px"}} src={personaje.image} alt="personaje" />
                                 <h2>{personaje.name}</h2>
                                 <p>{personaje.house}</p>
                             </Col>

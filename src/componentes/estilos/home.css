@@ -121,11 +121,13 @@ p {
     .griduno {
         display: flex;
         flex-direction: column;
+        justify-content: center
     }
 
     .griddos {
         display: flex;
         flex-direction: column;
+        justify-content: center
     }
 
     .gridtres {

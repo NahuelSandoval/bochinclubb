@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { Col, Container, Row } from 'react-bootstrap';
+import CircleLoader from "react-spinners/CircleLoader";
+
 import "./estilos/home.css"
 
 
@@ -21,8 +23,9 @@ const Personajes = () => {
     );
 if (estaCargando){
 return (
-    <div> 
-        <h2 className= "FormExitoso">Cargando personajes ....</h2>
+    <div className= "FormExitoso"> 
+        <h2>Cargando personajes ....</h2>
+        <CircleLoader color="rgba(102, 118, 115, 1)" size={70} />
     </div>
 );
 
@@ -44,7 +47,7 @@ return (
                     </Row>
                     : <div> Cargando personajes ....</div>}
             </Container>
-        </>
+        </> 
     )
 }
 

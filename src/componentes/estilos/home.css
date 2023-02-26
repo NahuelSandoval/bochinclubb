@@ -207,8 +207,11 @@ legend{
 .FormExitoso{
     height: 100vh;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    align-content: center;
+    justify-content: center;
+        
 }
 /* --------tablettttt---------- */
 @media (min-width:768px) {

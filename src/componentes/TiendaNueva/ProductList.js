@@ -1,7 +1,7 @@
 import React from "react";
-import {data} from "./data"
+import { data } from "./data"
 import Button from 'react-bootstrap/Button';
-
+/* aca se desestructura los estados del componente padre */
 const ProductList = ({
 	allProducts,
 	setAllProducts,

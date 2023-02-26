@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from 'react';
-
+/* aca se desestructura los estados del componente padre */
 const Header = ({
 	allProducts,
 	setAllProducts,
